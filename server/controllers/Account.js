@@ -7,7 +7,7 @@ const logout = (req, res) => {
   req.session.destroy();
   res.redirect('/');
 };
-// Test
+
 const login = (req, res) => {
   const username = `${req.body.username}`;
   const pass = `${req.body.pass}`;
